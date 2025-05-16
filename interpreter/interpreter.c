@@ -1,8 +1,8 @@
 /*
     RouletteFuck Interpreter
     ========================
-    This is the official interpreter for RouletteFuck, an esoteric programming language 
-    designed by Alex Hawking. In this interpreter, each command has a one in six chance
+    This is the official interpreter for RouletteFuck, an esoteric programming language. 
+    In this interpreter, each command has a one in six chance
     of being executed, simulating the unpredictability of Russian roulette. This design 
     choice challenges  programmers to develop solutions that are not only efficient but 
     also resilient to the inherent randomness introduced by this execution model.
@@ -16,8 +16,6 @@
     Note: Due to the randomness of command execution, loop behaviors (`[` and `]`) may 
     work unpredictably. Programmers are advised to design their programs with this 
     variability in mind.
-
-    Designed by Alex Hawking
 */
 
 #include <stdio.h>
